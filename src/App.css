@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a250f448;
+}
+
+.app {
+  padding: 20px;
+  padding-right: 65px;
+  border: 5px solid black;
+  border-radius: 100px;
+  background: linear-gradient(235deg, rgba(255, 255, 255, 0.052), #d33c3c); /* Gradient for 3D effect */
+}
+.box{
+  display: flex;
+  gap: 50px;
+ 
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-style: normal ;
+  font-weight: 800px;
+  font-family: 'Times New Roman', Times, serif;
+  color: crimson;
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
+.title:hover{
+  color: red;
+  transform: scale(1.1);
+}
+
+.matrix1{
+  border: 5px solid;
+  border-color: slateblue;
+
+  border-radius: 20px;
+  margin: 50px;
+  padding: 35px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  justify-content: center;
+  background-color: #a721e0e6;
+  transition: transform 0.3s ease, color 0.3s ease; 
+
+}
+.matrix1:hover{
+  
+  transform: scale(1.1);
+}
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-gap: 15px;
+  margin: 20px auto;
+  justify-content: center;
+  transition: transform 0.3s ease, color 0.3s ease; 
+
+}
+.matrix:hover{
+  transform: scale(1.1);
+}
+
+.matrix-input {
+  width: 50px;
+  border-radius: 20px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  color: magenta;
+  border-color: tomato;
+
+}
+
+.heatmap-container {
+  border-radius:20px;
+  width: 300px;
+  height: 300px;
+  border: 5px solid;
+  margin: 20px auto;
+  border-color: slateblue;
+  background-color: rgba(0, 255, 89, 0.329);
+  transition: transform 0.3s ease, color 0.3s ease; 
+
+}
+.heatmap-container:hover{
+  transform: scale(1.1);
+
+}
+
+.heatmap-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
