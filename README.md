@@ -1,3 +1,9 @@
+# heat-map
+This heatmap is built with a 3x3 matrix on a web page using HTML, CSS, JavaScript, and a React app etc.                                                    
+![Screenshot 2024-06-26 181558](https://github.com/ut123-ux/Heat_map/assets/142161108/01030c2d-8f6f-4b78-8668-8d5adf5fd8b8)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
